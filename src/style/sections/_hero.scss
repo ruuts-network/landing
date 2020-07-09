@@ -34,7 +34,10 @@
   .container{
     position: absolute;
     top: calc(50vh );
-    left: calc((100vw - width) /2 );
+    /*left: calc((100vw - 100%) /2 );*/
+    margin: 0 auto;
+    max-width: 100%!important;
+    left:0px!important;
   }
 
 
