@@ -64,7 +64,8 @@
 
   .fullscreen-bg-logo{
     z-index: -10;
-    background-color: $brown-dark-alpha ;
+    /*background-color: $brown-dark-alpha ; */
+    background-color: $black-dark-alpha;
   }
   .fullscreen-bg__logo {
       position: absolute;
@@ -73,7 +74,8 @@
       width: 100%;
       height: 100%;
       /*background-image: url("/img/logo.darkbg.png");*/
-      background-image: url("/img/logo-removebg-preview.png");
+      /*background-image: url("/img/logo-removebg-preview.png");*/
+      background-image: url("/img/ruuts_logo_blanco-02.png");
       background-size: 400px auto;
       background-position: center calc(50vh - 150px);
       background-repeat: no-repeat;
