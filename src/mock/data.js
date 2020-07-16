@@ -68,8 +68,8 @@ export const projectsDataOLD = [
 // CONTACT DATA
 export const contactData = {
   cta: 'Would you like to get in touch?',
-  btn: 'Email me!',
-  email: 'pablo@sumatoria.org',
+  btn: 'Email us!',
+  email: 'hola@ruuts.network',
 };
 
 // FOOTER DATA

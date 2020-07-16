@@ -24,11 +24,14 @@ function App() {
     setFooter({ ...footerData });
   }, []);
 
+  /*
+    <About />
+    <Projects />
+    <Contact />
+  */
   return (
     <PortfolioProvider value={{ hero, about, projects, contact, footer }}>
       <Hero />
-      <About />
-      <Projects />
       <Contact />
       <Footer />
     </PortfolioProvider>
