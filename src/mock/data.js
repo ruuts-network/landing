@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: ' ',
-  subtitle: 'Sinking carbon, one hectare at a time',
+  subtitle: 'Transforming CO2 into life',
   cta: '',
 };
 

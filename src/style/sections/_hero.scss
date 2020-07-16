@@ -41,6 +41,9 @@
     z-index: -100;
   }
 
+  .fullscreen-bg-logo {
+    position: fixed;
+  }
   .fullscreen-bg__video {
       position: absolute;
       /*top: 0;
@@ -68,6 +71,19 @@
     background-color: $black-dark-alpha;
   }
   .fullscreen-bg__logo {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 20vh;
+      background-image: url("/img/ruuts_logo_blanco-02.png");
+      background-size: 400px auto;
+      background-position: center center;
+      background-repeat: no-repeat;
+
+  }
+
+  .Xfullscreen-bg__logo {
       position: absolute;
       top: 0;
       left: 0;
@@ -84,7 +100,7 @@
 
   .container{
     position: absolute;
-    top: calc(50vh );
+    top: calc(30vh );
     /*left: calc((100vw - 100%) /2 );*/
     margin: 0 auto;
     max-width: 100%!important;

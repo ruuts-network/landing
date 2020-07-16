@@ -33,9 +33,10 @@ const Header = () => {
         </video>
       </div>
       <div className="fullscreen-bg-logo">
-        <div className="fullscreen-bg__logo" id="logo" />
+        
       </div>
       <Container>
+        <div className="fullscreen-bg__logo" id="logo" />
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || ''}{' '}
